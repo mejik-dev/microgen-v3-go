@@ -12,7 +12,7 @@ type Client struct {
 	Realtime *client.RealtimeClient
 }
 
-const defaultDomain = "https://api.staging.synchrodb.io"
+const defaultDomain = "https://api.stagingv3.microgen.id"
 
 func DefaultURL() string {
 	return defaultDomain + "/query/api/v1"
